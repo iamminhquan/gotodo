@@ -21,8 +21,8 @@ type timePtr = time.Time
 // ── Terminal width detection ─────────────────────────────────────────────────
 
 const (
-	defaultTermWidth = 80  // safe fallback for narrow or unknown terminals
-	maxTableWidth    = 140 // never let the table go wider than this
+	defaultTermWidth = 177 // safe fallback for narrow or unknown terminals
+	maxTableWidth    = 200 // never let the table go wider than this
 )
 
 // terminalWidth tries to detect the terminal column count using only the
